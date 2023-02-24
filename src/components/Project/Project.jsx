@@ -15,24 +15,54 @@ const Project = () => {
   return (
     <div className="project" id="project">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Projects</span>
+      <span style={{ color: darkMode ? 'white' : '' }}>Projects</span>
 
       {/* slider */}
       <Swiper spaceBetween={30} slidesPerView={3} grabCursor={true} className="project-slider">
         <SwiperSlide>
-          <img src={foodDelivery} alt="" />
+          <button className="sliderButton"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = 'https://github.com/developerNishtha/Food-Delivery_App-Front-end-';
+            }}
+          > <img src={foodDelivery} alt="" /></button>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={keeperApp} alt="" />
+          <button className="sliderButton"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = 'https://github.com/developerNishtha/Keeper-App';
+            }}
+          > <img src={keeperApp} alt="" /></button>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={todoList} alt="" />
+          <button className="sliderButton"
+            type="button" 
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = 'https://github.com/developerNishtha/To-Do-List';
+            }}
+          ><img src={todoList} alt="" /></button>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={weatherApp} alt="" />
+          <button className="sliderButton"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = 'https://github.com/developerNishtha/Weather-app';
+            }}
+          > <img src={weatherApp} alt="" /></button>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HMS} alt="" />
+          <button className="sliderButton"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = 'https://github.com/developerNishtha/Hospital-Management-System';
+            }}
+          > <img src={HMS} alt="" /></button>
         </SwiperSlide>
       </Swiper>
     </div>
