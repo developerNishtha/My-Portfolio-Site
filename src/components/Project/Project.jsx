@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Project.css";
+import "../Project/Project.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import foodDelivery from "../../img/foodDelivery.jpg";
@@ -8,6 +8,7 @@ import weatherApp from "../../img/weatherApp.jpg";
 import HMS from "../../img/HMS.jpeg";
 import todoList from "../../img/todoList.jpeg";
 import { themeContext } from "../../Context";
+
 const Project = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -17,12 +18,7 @@ const Project = () => {
       <span style={{color: darkMode?'white': ''}}>Projects</span>
 
       {/* slider */}
-      <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
-        grabCursor={true}
-        className="project-slider"
-      >
+      <Swiper spaceBetween={30} slidesPerView={3} grabCursor={true} className="project-slider">
         <SwiperSlide>
           <img src={foodDelivery} alt="" />
         </SwiperSlide>

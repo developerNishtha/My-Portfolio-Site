@@ -46,7 +46,7 @@ textarea{
     .contact-form{
         padding: 0;
         flex-direction: column;
-        gap: 5rem;
+        gap: 3rem;
         height: 40rem;
     }
     .c-right .user{

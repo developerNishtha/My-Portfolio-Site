@@ -30,7 +30,12 @@
 }
 
 @media screen and (max-width: 480px){
+  .footer{
+    height: auto;
+    margin-top: -10rem;
+  }
   .f-content{
-    transform: scale(.5);
+    transform: scale(.8);
+    height: 40rem;
   }
 }
