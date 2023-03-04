@@ -1,12 +1,12 @@
 import React from "react";
 import "./Card.css";
 
-const Card = ({ heading, detail, color}) => {
+const Card = ({ heading, detail_1,detail_2, color}) => {
   return (
     <div className="card" style={{borderColor: {color}}}> 
-      {/* <img src={emoji} alt="" /> */}
-      <span>{heading}</span>
-      <span>{detail}</span>
+      <span style={{ fontWeight: 'bold' }}>{heading}</span>
+      <span>{detail_1}</span>
+      <span>{detail_2}</span>
       {/* <button className="c-button">LEARN MORE</button> */}
     </div>
   );

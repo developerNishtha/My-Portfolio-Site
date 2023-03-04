@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-// import Vector2 from "../../img/Vector2.png";
-// import photo from "../../img/photo.jpg";
+import photo from "../../img/photo.jpg";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import codeForces from "../../img/codeForces.png";
@@ -40,9 +38,7 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        {/* <img src={Vector2} alt="" /> */}
-        {/* <img src={photo} alt="" /> */}
+        <img src={photo} alt="" />
       </div>
     </div>
   );
