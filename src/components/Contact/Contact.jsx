@@ -47,6 +47,7 @@ const Contact = () => {
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input type="email" name="user_email" className="user"  placeholder="Enter your E-mail"/>
           {false && <div> <input disabled type="email" name="user_email" className="user" placeholder="Email" value="shahnishtha0902@gmail.com"/></div>}
          
           {/* <input disabled type="number" name="Mobile no." className="user" placeholder="Mobile no" value="8320795914"/> */}
