@@ -24,7 +24,7 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}></span>
         <img height="300px" width="400px" src={work_photo} alt="" />
-        <a href="https://drive.google.com/file/d/11ZmsW3WYHmzfsvgwI9FUiKtPdD3CYYpt/view?usp=sharing" download>
+        <a href="https://drive.google.com/file/d/1SmvzzRfAC9K7AqSzsXcN2bk_B78A68i-/view?usp=share_link" download>
           <br />
           <button className="button s-button">Resume</button>
         </a>
