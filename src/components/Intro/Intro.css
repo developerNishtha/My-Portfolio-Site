@@ -87,6 +87,8 @@
   .i-right {
     transform: scale(0.8);
     left: -3rem;
+    justify-content: center;
+    align-items:center;
   }
   .i-right .blur {
     display: none;
