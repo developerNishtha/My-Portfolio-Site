@@ -14,8 +14,9 @@ const Work = () => {
   const clients = [
     {
       img: photo,
-      review:"Tambola Solutions(USA) ", 
-      review_1:"Worked as a full stack developer(Intern). It was a great experience!!", 
+      review: "Tambola Solutions(USA) ",
+      review_1:
+        "Worked as a full stack developer(Intern). It was a great experience!!",
     },
     // {
     //   img: profilePic2,
@@ -38,9 +39,11 @@ const Work = () => {
     <div className="t-wrapper" id="work">
       <div className="t-heading">
         <span>Experience</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
-
+        <div
+          className="blur t-blur1"
+          style={{ background: "var(--purple)" }}
+        ></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
       <Swiper
         // install Swiper modules
